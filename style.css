@@ -1,8 +1,28 @@
 :root{
-  
+  --clr-accent-400: #f25f3a;
+  --clr-accent-100: #ffefeb;
+
+  --clr-primary-400: #242d52 ;
+  --clr-primary-100: ;
+
+  --clr-neutral-100: #1d1e25;
+  --clr-neutral-900: #000000;
+
+  --font-family-primary: "Be Vietnam Pro", sans-serif;
+
+  --ff-body: var(--ff-primary);
+  --ff-accent: var(--ff-primary);
+
+  --fw-regular: 300;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  --fs-300: .8125rem;
+  --fs-400: .875rem;
+  --fs-500: 1rem;
+  --fs-600: 1.875rem;
+  --fs-700: 2.5rem;
 }
-
-
 
 
 /* Box sizing rules */
