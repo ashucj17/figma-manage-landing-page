@@ -185,7 +185,7 @@ p[data-width="wide"] {
   font-size: var(--fs-button);
   color: var(--clr-neutral-100);
   background-color: var(--clr-accent-400);
-box-shadow: 0 8px 15px -10px var(--clr-accent-500);
+  box-shadow: 0 8px 15px -10px var(--clr-accent-500);
 }
 
 .button:hover,
@@ -242,7 +242,6 @@ box-shadow: 0 8px 15px -10px var(--clr-accent-500);
 }
 
 @media (max-width: 50em) {
-
   .primary-navigation {
     display: none;
     position: fixed;
@@ -275,9 +274,15 @@ box-shadow: 0 8px 15px -10px var(--clr-accent-500);
   .mobile-nav-toggle {
     display: block;
     position: fixed;
+    cursor: pointer;
+    background: transparent;
     top: var(--size-600);
     right: var(--size-400);
     z-index: 30;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
   }
 
   .mobile-nav-toggle .icon-close {
@@ -292,9 +297,9 @@ box-shadow: 0 8px 15px -10px var(--clr-accent-500);
     display: block;
   }
 
-   .nav-list {
-    flex-direction: column;   /* ✅ KEY FIX */
-    align-items: center;      /* optional (for center alignment) */
+  .nav-list {
+    flex-direction: column; /* ✅ KEY FIX */
+    align-items: center; /* optional (for center alignment) */
     gap: var(--size-600);
     text-align: center;
     font-weight: var(--fw-bold);
@@ -657,8 +662,8 @@ input:where([type="text"], [type="email"]) {
   }
 
   .text-center-sm-only p {
-  margin-inline: auto;
-}
+    margin-inline: auto;
+  }
 }
 
 .text-primary-400 {
